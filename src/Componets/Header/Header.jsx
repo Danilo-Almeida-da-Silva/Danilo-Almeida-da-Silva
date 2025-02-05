@@ -1,7 +1,10 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import s from "./header.module.scss";
-import Inicio from "../../pages/Inicio.jsx";
-import ftdan from "../../assets/ftdan.jpg"
+import Inicio from "../../pages/Sobre.jsx";
+import ftdan from "../../assets/ftdan.jpg";
+import Projetos from "../../pages/Projetos.jsx";
+import Contato from "../../pages/Contato.jsx";
+import Skills from "../../pages/Skills.jsx";
 
 export default function Header() {
   return (
@@ -12,20 +15,38 @@ export default function Header() {
           <h1>Danilo Almeida</h1>
         </section>
 
-        <section>
+        
           <nav className={s.navHeader}>
             <ul>
               <li>
-                <Link className={s.Link} to="/">
+                <Link className={s.Inicio} to="/">
                   Incio
+                </Link>
+              </li>
+              <li>
+                <Link className={s.Projeto} to="/Projetos">
+                  Projetos
+                </Link>
+              </li>
+              <li>
+                <Link className={s.Skills} to="/Skills">
+                  Skills
+                </Link>
+              </li>
+              <li>
+                <Link className={s.Contato} to="/Contato">
+                  Contato
                 </Link>
               </li>
             </ul>
           </nav>
-        </section>
+      
       </header>
       <Routes>
         <Route path="/" element={<Inicio />} />
+        <Route path="/Projetos" element={<Projetos />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Contato" element={<Contato />} />
       </Routes>
     </BrowserRouter>
   );
