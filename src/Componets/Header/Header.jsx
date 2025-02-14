@@ -11,7 +11,7 @@ export default function Header() {
     <BrowserRouter>
       <header className={s.header}>
         <section className={s.Perfil}>
-          <img src={ftdan} alt="Imagem de perfil da pessoal fisica Danilo" />
+          <img className={s.fotoperfil} src={ftdan} alt="Imagem de perfil da pessoal fisica Danilo" />
           <h1>Danilo Almeida</h1>
         </section>
           <nav className={s.navHeader}>
