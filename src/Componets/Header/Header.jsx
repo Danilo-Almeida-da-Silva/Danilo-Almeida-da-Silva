@@ -15,7 +15,7 @@ export default function Header() {
           <h1>Danilo Almeida</h1>
         </section>
           <nav className={s.navHeader}>
-            <ul>
+            <ul className={s.listaheader}>
               <li>
                 <Link className={s.Inicio} to="/">
                   Incio
