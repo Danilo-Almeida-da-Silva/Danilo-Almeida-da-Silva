@@ -27,8 +27,9 @@
   justify-content: space-evenly;
   width: 50%;
   
+  
 
-  ul {
+  .listaheader {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -36,8 +37,16 @@
     background-color: rgba(245, 245, 245, 0.021);
     li {
       display: flex;
-      font-size: 15px;
+      font-size: 20px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      &:hover {
+        transform: translateY(-20px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        transition: 2s;
+      }
+
     }
+
   }
 }
 
@@ -48,6 +57,7 @@
   justify-content: space-evenly;
   width: 25%;
   height: 25vh;
+  
 }
 h1 {
   box-shadow: 3px 3px 3px 3px rgba(174, 152, 255, 0.466);
