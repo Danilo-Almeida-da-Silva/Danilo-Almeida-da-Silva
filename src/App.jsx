@@ -4,7 +4,6 @@ export default function App(){
   return(
     <section>
       <Header />
-      <h1>APP</h1>
     </section>
   );
 }
