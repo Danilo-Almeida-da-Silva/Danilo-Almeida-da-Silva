@@ -8,7 +8,7 @@ portifolio em React em construção
 - 👯 Estou procurando uma oportunidade de estagio/trainee na area de programação.
 
   ## Ferramentas e Tecnologias
-<section align="center" style="background-color: #f4f4f4; padding: 10px; border-radius: 10px;">>
+<section align="center" style="background-color: white; padding: 10px; border-radius: 10px;">
   <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" width="40" height="40" />
