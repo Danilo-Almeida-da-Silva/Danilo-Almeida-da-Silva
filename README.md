@@ -3,9 +3,10 @@
 
 portifolio em React em construção
 
-- 🔭 Atualmente estou trabalhando em administração
+- 🔭 Atualmente estou trabalhando em Analista de Suporte Tecnico Junior I
 - 🌱 Atualmente estou aprendendo microframework flask em python
 - 👯 Estou procurando uma oportunidade de estagio/trainee na area de programação.
+- 🎓 Formado no Curso superior em Analise e Desenvolvimento de Sistema
 
   ## Ferramentas e Tecnologias
 <section align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
